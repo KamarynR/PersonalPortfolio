@@ -1,0 +1,141 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  body{
+    background-color: #232946;
+  }
+
+  .home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .about-section{
+    background-color: #b8c1ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .work-section{
+    background-color:#fffffe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .img{
+      border-radius: 15%;
+  }
+
+  p{
+    font-size: larger;
+  }
+
+  .card-text{
+    font-size: medium;
+  }
+  .nav-link {
+      color: #eebbc3;
+      font-size: 20px;
+  }
+
+  .nav-link:hover{
+    color: #eebbc3;
+    transform: scale(1.5);
+  }
+
+  .nav-link:visited{
+    text-decoration: none;
+    color: #eebbc3; 
+  }
+
+  .display-6{
+    color: white;
+  }
+
+  .lead{
+    color: white;
+  }
+
+  .btn:link { 
+    text-decoration: none;
+    color: #eebbc3; 
+  }
+  
+  .p{
+    color: #eebbc3;
+  }
+
+  .btn:visited { 
+    text-decoration: none;
+    color: #eebbc3; 
+  }
+  
+  .btn:active { 
+    text-decoration: none; 
+    color: #eebbc3;
+    
+  }
+
+.about{
+  border-radius: 100%;
+}
+  
+  .btn a{
+    color:#eebbc3;
+}
+  /* Darker background on mouse-over */
+  .btn:hover {
+    color: #eebbc3;
+    text-decoration: none;
+    transform: scale(1.5);
+  }
+
+  a:link { 
+    text-decoration: none;
+    color:#eebbc3;
+   }
+  
+
+  .btn {
+    color: #eebbc3;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    align-content: center;
+  }
+
+  .fa{
+    color: #eebbc3;
+   }
+
+  .fa:hover{
+    color: #eebbc3;
+    transform: scale(1.0);
+  }
+
+  .fa:visited{
+    text-decoration: none;
+    color: #eebbc3;
+  }
